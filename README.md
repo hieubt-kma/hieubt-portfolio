@@ -1,10 +1,8 @@
-# 🍥 Fuwari - hieubt Portfolio
+# 🍥 Fuwari - Hieubt Portfolio
 
-Welcome to my personal portfolio, built using the [Fuwari](https://github.com/saicaca/fuwari) template. This project showcases [your main purpose: e.g., my frontend skills, personal projects, or my personal blog].
+Welcome to my personal portfolio. This site is built using the [Fuwari](https://github.com/saicaca/fuwari) template. Many thanks to the original creator for this great base! Here, I share my work and interests.
 
-[**🖥️ Live Demo**](https://fuwari.vercel.app)
-
-![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
+[**🖥️ Live Demo**](https://hieubt.vercel.app/)
 
 ## ✨ Key Technologies
 
@@ -12,5 +10,5 @@ Welcome to my personal portfolio, built using the [Fuwari](https://github.com/sa
 *   **Tailwind CSS**: A utility-first CSS framework for building fast and flexible user interfaces.
 
 ---
-
-Thanks for visiting!
+Thank you for checking out my portfolio!
+This portfolio is based on the [Fuwari template by saicaca](https://github.com/saicaca/fuwari).
