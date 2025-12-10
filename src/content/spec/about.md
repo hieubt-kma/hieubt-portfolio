@@ -5,4 +5,4 @@ Second-years student at the [**Academy of Cryptography Techniques (ACTVN)**](htt
 I’m interested in **CTF Forensics** | **Cloud Sec** 
 
 > #### 📫 **Contacts**
-> [LinkedIn](https://www.linkedin.com/in/hieubt06/)s
+> [LinkedIn](https://www.linkedin.com/in/hieubt06/)
