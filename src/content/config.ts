@@ -3,16 +3,17 @@ import { defineCollection, z } from "astro:content";
 const postsCollection = defineCollection({
 	schema: z.object({
 		title: z.string(),
-		published: z.date(),
-		updated: z.date().optional(),
+
+		published: z.coerce.date(),
+		updated: z.coerce.date().optional(),
+
 		draft: z.boolean().optional().default(false),
 		description: z.string().optional().default(""),
 		image: z.string().optional().default(""),
 		tags: z.array(z.string()).optional().default([]),
-		category: z.string().optional(), // 🔥 sửa dòng này
+		category: z.string().optional(),
 		lang: z.string().optional().default(""),
 
-		/* For internal use */
 		prevTitle: z.string().default(""),
 		prevSlug: z.string().default(""),
 		nextTitle: z.string().default(""),
@@ -20,11 +21,7 @@ const postsCollection = defineCollection({
 	}),
 });
 
-const specCollection = defineCollection({
-	schema: z.object({}),
-});
-
 export const collections = {
 	posts: postsCollection,
-	spec: specCollection,
+	spec: defineCollection({ schema: z.object({}) }),
 };
