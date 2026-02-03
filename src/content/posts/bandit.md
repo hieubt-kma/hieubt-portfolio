@@ -1,12 +1,11 @@
 ---
-title: "Wargames - Bandit"
-published: 2026-1-02
-description: "Làm quen Linux"
-# image: ./cover.jpg
-tags: [Linux]
-category: Linux 
+title: Bandit
+published: 2026-01-02
+description: Làm quen Linux
+tags: [linux]
 draft: false
 ---
+
 
 # Bandit0
 > User: bandit0
