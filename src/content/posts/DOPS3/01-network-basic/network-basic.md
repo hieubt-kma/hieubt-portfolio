@@ -8,7 +8,7 @@ draft: false
 ---
 
 # Mô hình OSI, TCP/IP
-## OSI - Open Systems Interconnection
+### OSI - Open Systems Interconnection
 - OSI - là mô hình tham chiếu mô tả cách hệ thống mạng giao tiếp với nhau dễ dàng. Mô hình chia thành 7 tầng, mỗi tầng đảm nhiệm một chức năng riêng, giúp các thiết bị và chỉ làm việc với tầng bên trên hoặc bên dưới khi có sự cố. 
 - Các tầng giao tiếp với nhau thông qua các kênh logic (logic communication)
 - Mô hình OSI có 2 loại thao thức:
@@ -55,7 +55,7 @@ draft: false
     - Duy trì và giải phóng kết nối vật lý
 ![Mô hình OSI](image.png)
 
-## TCP/IP - Transmission Control Protocol/Internet Protocol
+### TCP/IP - Transmission Control Protocol/Internet Protocol
 - TCP/IP là bộ giao thức mạng thực tế đang được sử dụng trên Internet.
 - Khác với OSI (mô hình tham chiếu), TCP/IP là mô hình triển khai + tập hợp các giao thức cụ thể.
 - Được thiết kế đơn giản hơn OSI và thường chia thành 4 tầng.
@@ -197,19 +197,19 @@ sudo apt update && sudo apt upgrade
 
 ---
 # Tìm hiểu network trong VMware
-## Bridge
+### Bridge
 - VM kết nối trực tiếp vào mạng LAN vật lý như một máy thật
 - Cùng dải IP/Subnet với mạng thật (do DHCP router cấp)
-## Host-Only
+### Host-Only
 - Mạng nội bộ giữa Host với VM
 - Không truy cập Internet
 - Mạng riêng hoàn toàn, cô lập, an toàn
-## NAT
+### NAT
 - VM dùng IP private
 - Khi ra Internet, NAT chuyển private → IP của Host
 - Ra Internet được, bên ngoài không thể truy cập trực tiếp vào VM
 - An toàn, hay dùng
-## Custom Network (VMnet8)
+### Custom Network (VMnet8)
 - Cấu hình bằng VMware Virtual Network Editor
 - Tạo mạng riêng theo yêu cầu
 - Có thể bật DHCP, NAT hoặc chỉnh Subnet
@@ -390,7 +390,7 @@ service keepalived start
 
 ---
 # Tool debug, config network
-## Tool debug
+### Tool debug
 - Kiểm tra kết nối Internet (có ra ngoài được không)
 - Kiểm tra DNS + Internet
 ```bash
@@ -428,7 +428,7 @@ sudo tcpdump host 8.8.8.8
 ```bash
 wireshark
 ```
-## Config network
+### Config network
 ```bash
 sudo nano /etc/netplan/50-cloud-init.yaml   # sửa cấu hình
 sudo netplan apply                         # áp dụng cấu hình
