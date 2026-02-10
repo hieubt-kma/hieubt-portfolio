@@ -230,3 +230,17 @@ f\Z'========== is
 ========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 ```
 
+## Bandit11
+> - User: bandit11
+> - Pass: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+- Sau khi kiểm tra, đề bài cho file đã bị mã hóa(Encode) Base64.  
+- Dấu hiệu nhận biết Base64: `A–Z a–z 0–9 + /` và có thể kết thúc chuỗi bảng `=` hoặc `==` (padding)
+`base64 -d` - lệnh dùng để giải mã (Decode) Base64
+```bash
+bandit10@bandit:~$ ls
+data.txt
+bandit10@bandit:~$ cat data.txt
+VGhlIHBhc3N3b3JkIGlzIGR0UjE3M2ZaS2IwUlJzREZTR3NnMlJXbnBOVmozcVJyCg==
+bandit10@bandit:~$ base64 -d data.txt
+The password is dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+```

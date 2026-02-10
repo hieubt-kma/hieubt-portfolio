@@ -407,6 +407,4 @@ testgroup:x:1002:otheruser
 ```
 
 ---
-
-
-
+# Tìm hiểu về người dùng trong User. Các loại người dùng trong Linux. Với mỗi loại họ có quyền gì trong hệ thống
