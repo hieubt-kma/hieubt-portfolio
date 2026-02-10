@@ -235,6 +235,7 @@ f\Z'========== is
 > - Pass: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 - Sau khi kiểm tra, đề bài cho file đã bị mã hóa(Encode) Base64.  
 - Dấu hiệu nhận biết Base64: `A–Z a–z 0–9 + /` và có thể kết thúc chuỗi bảng `=` hoặc `==` (padding)
+
 `base64 -d` - lệnh dùng để giải mã (Decode) Base64
 ```bash
 bandit10@bandit:~$ ls
