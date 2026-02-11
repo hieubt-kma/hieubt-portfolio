@@ -245,3 +245,18 @@ VGhlIHBhc3N3b3JkIGlzIGR0UjE3M2ZaS2IwUlJzREZTR3NnMlJXbnBOVmozcVJyCg==
 bandit10@bandit:~$ base64 -d data.txt
 The password is dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 ```
+
+## Bandit12
+> - User: bandit12
+> - Pass: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+- Ở level này, chuỗi trong data.txt được mã hóa bằng ROT13 (dịch mỗi chữ cái sang phải 13 ký tự trong bảng chữ cái). ROT13 đối xứng nên dùng cùng một lệnh để mã hóa hoặc giải mã.
+
+`tr 'A-Za-z' 'N-ZA-Mn-za-m` - Dùng lệnh *tr* để chuyển đổi ký tự
+```bash
+bandit11@bandit:~$ ls
+data.txt
+bandit11@bandit:~$ cat data.txt 
+Gur cnffjbeq vf 7k16JArUVv5LxVuJfsSVdbbtaHGlw9D4
+bandit11@bandit:~$ echo "Gur cnffjbeq vf 7k16JArUVv5LxVuJfsSVdbbtaHGlw9D4" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+The password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+```

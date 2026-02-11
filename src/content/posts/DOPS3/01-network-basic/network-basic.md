@@ -37,7 +37,7 @@ draft: false
     - Phát hiện lỗi, truyền lại khi mất gói.
     - Điều khiển luồng (flow control)
     - Sử dụng port để phân biệt các tiến trình
-- `Network Laye`r - Tầng Mạng:
+- `Network Layer` - Tầng Mạng:
     - Định tuyến các gói tin từ nguồn đến đích qua nhiều mạng khác nhau.
     - Xác định đường đi tối ưu (routing).
     - Sử dụng địa chỉ logic (IP Address)
