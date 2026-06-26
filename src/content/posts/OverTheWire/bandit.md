@@ -260,3 +260,7 @@ Gur cnffjbeq vf 7k16JArUVv5LxVuJfsSVdbbtaHGlw9D4
 bandit11@bandit:~$ echo "Gur cnffjbeq vf 7k16JArUVv5LxVuJfsSVdbbtaHGlw9D4" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 The password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 ```
+
+## Bandit13
+> - User: bandit13
+> - Pass: 

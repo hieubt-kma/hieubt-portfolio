@@ -6,3 +6,4 @@ category: DOPS3
 tags: [Linux]
 draft: false
 ---
+# 1. tìm hiểu file stream: stdin, stdout, stderr.  ý nghĩa /dev/null. 
